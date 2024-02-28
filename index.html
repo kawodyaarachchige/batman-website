@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Batman Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <img src="images/batman-logo.png" alt="Batman Logo">
+    <h3>Batman</h3>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+<!--  <form action="#" method="get" class="search-form">
+    <br>
+    <input type="text" name="search" id="search" placeholder="Search...">
+    <br>
+    <button type="submit">Search</button>
+  </form>-->
+</header>
+<div class="cover-photo">
+  <img src="images/batman-cover.jpg" alt="Batman Cover Photo">
+</div>
+
+<main>
+  <section id="home" class="section">
+    <h2 id = "welcome">Welcome to Gotham City</h2>
+<!--    <p id = "subtitle">Protecting the city from the shadows...</p>-->
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Batman Website</h2>
+      <p>Welcome to the official Batman Website, your ultimate destination for all things related to the Dark Knight!</p>
+      <br>
+      <h3>Who We Are:</h3>
+      <br>
+      <p>Batman Website is a fan-created platform dedicated to celebrating the iconic superhero, Batman. We're passionate about the Caped Crusader and strive to provide fans with the latest news, updates, and exclusive content from the world of Batman.</p>
+      <br>
+      <h3>What We Offer:</h3>
+      <br>
+      <ul>
+        <li><strong>Latest News:</strong> Stay up-to-date with the latest news, announcements, and developments from the Batman universe, including movies, comics, TV shows, and more.</li>
+        <li><strong>Character Profiles:</strong> Explore detailed profiles of your favorite Batman characters, including Batman himself, his allies, villains, and supporting cast.</li>
+        <li><strong>Gallery:</strong> Dive into our extensive gallery featuring stunning artwork, illustrations, and fan creations inspired by Batman and his universe.</li>
+        <li><strong>Interactive Content:</strong> Immerse yourself in interactive experiences, quizzes, and challenges that test your knowledge of Batman trivia and lore.</li>
+        <li><strong>Community Engagement:</strong> Join a passionate community of Batman fans from around the world to discuss theories, share fan art, and connect with fellow enthusiasts.</li>
+      </ul>
+      <br>
+      <h3>Our Mission:</h3>
+      <br>
+      <p>Our mission at Batman Website is to honor the legacy of Batman and his impact on popular culture. Whether you're a long-time fan or new to the world of Gotham City, we invite you to explore, engage, and celebrate the enduring symbol of justice that is Batman.</p>
+    </div>
+  </section>
+  <section id="gallery" class="section">
+    <br>
+    <h2>Gallery</h2>
+    <div class="container">
+      <div class="gallery">
+        <div class="gallery-item">
+          <br>
+          <img src="images/batman-gallery-1.jpg" alt="Batman Gallery 1">
+          <div class="caption">
+            <h3>Batman in Gotham City</h3>
+            <p>Gotham City, a sprawling metropolis teeming with towering skyscrapers, dark alleyways, and a palpable aura of mystery, serves as the gritty and atmospheric backdrop for the iconic vigilante, Batman. Known as the Dark Knight, Batman prowls the streets of Gotham, fiercely protecting its citizens from the criminal underworld that threatens to engulf the city in chaos.
+              Born from tragedy, Bruce Wayne, the billionaire philanthropist and heir to the Wayne fortune, witnessed the murder of his parents in the heart of Gotham's crime-infested streets. Driven by an unrelenting desire for justice and a vow to rid Gotham of corruption, Wayne dons the mantle of Batman, a symbol of fear to those who prey on the innocent. </p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <br>
+          <img src="images/batman-gallery-2.jpg" alt="Batman Gallery 2">
+          <div class="caption">
+            <h3>Batman in Gotham City</h3>
+            <P>Armed with intellect, physical prowess, and cutting-edge technology, Batman wages a relentless war against crime, confronting a rogues' gallery of adversaries that include the enigmatic Joker, the seductive Catwoman, and the brooding vigilante, Two-Face. Each night, he patrols the shadowy alleys and rooftops of Gotham, driven by an unwavering commitment to uphold justice and safeguard the city he calls home.
+              Yet, beneath the cowl and behind the mask, Batman is not just a symbol of fear; he is a beacon of hope for the people of Gotham. Through his unwavering determination and unyielding resolve, </P>
+        </div>
+        </div>
+        <div class="gallery-item">
+          <br>
+          <img src="images/batman-gallery-3.jpg" alt="Batman Gallery 3">
+          <div class="caption">
+            <h3>Batman in Gotham City</h3>
+            <p>Batman serves as a reminder that even in the darkest of times, there is always a glimmer of light, a flicker of hope that can pierce through the shadows and illuminate the path to redemption.
+              As the eternal guardian of Gotham City, Batman embodies the essence of heroism, standing as a timeless symbol of resilience, courage, and the enduring power of the human spirit in the face of adversity. In a city plagued by corruption and despair, Batman's presence serves as a beacon of hope, inspiring ordinary citizens to rise above their fears and embrace the promise of a brighter tomorrow.</p>
+           </div>
+        </div>
+        <!-- Add more gallery items as needed -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <br>
+      <h2>Contact Us</h2>
+      <br>
+      <p>Have a question or feedback? Feel free to get in touch!</p>
+      <br>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 Batman Website. All rights reserved.</p>
+</footer>
+</body>
+</html>
